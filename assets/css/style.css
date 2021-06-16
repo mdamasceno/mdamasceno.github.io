@@ -1,0 +1,68 @@
+body {
+    background: #E44D26;  
+    background: -webkit-linear-gradient(to left, #F16529, #E44D26);  
+    background: linear-gradient(to left, #F16529, #E44D26); 
+    color: #000 !important;     
+}
+* {
+    font-family: 'Baloo Tammudu 2', cursive;    
+}
+header {
+    background: #E44D26;  
+    background: -webkit-linear-gradient(to left, #f16529d3, #e44c26d5); 
+    background: linear-gradient(to left, #f16529d3, #e44c26d5);
+}
+#profile{
+    padding: 30px;
+    background-color: rgb(247, 239, 239);
+    margin: auto;
+    box-shadow: 0px 2px 8px #655;
+    width: fit-content;
+    border-radius: 10px;
+}
+#profile > :first-child {
+    border-radius:50%; 
+    width:100px;
+    height:100px;
+    box-shadow:0px 1px 12px #000;
+}
+#profile label, #profile h4{
+    margin-bottom: 0px;
+}
+#logo{
+    color:#000;
+    width: fit-content;
+}
+#logo h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size:50px;
+    margin:0px;
+    line-height: 0.8;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background:#F16529;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E44D26;
+  }
+  #whatsapp {
+      right:15px;
+      bottom: 15px;
+      z-index: 100;
+      position: fixed;
+  }
+
+  .hover:hover {
+      cursor: pointer;
+  }
+  #first {
+      height: 100vh;
+  }
+  canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: transparent; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
