@@ -11,8 +11,8 @@ body {
 }
 header {
     background: #E44D26;  
-    background: -webkit-linear-gradient(to left, #f16529d3, #e44c26d5); 
-    background: linear-gradient(to left, #f16529d3, #e44c26d5);
+    background: -webkit-linear-gradient(to left, #F16529, #E44D26); 
+    background: linear-gradient(to left, #F16529, #E44D26);
     /*background-color: #130f40;
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); */
 }
@@ -56,17 +56,10 @@ header {
   ::-webkit-scrollbar-thumb:hover {
     background: #E44D26;
   }
-  #whatsapp {
-      right:15px;
-      bottom: 15px;
-      z-index: 100;
-      position: fixed;
-  }
-
   .hover:hover {
       cursor: pointer;
   }
-  #first {
+  #first, #second {
       height: 100vh;
   }
-  canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: transparent; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+  canvas{ display: block;} /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: transparent; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
