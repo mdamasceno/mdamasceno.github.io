@@ -67,7 +67,7 @@ header {
     padding: 0.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    text-align: center;
+    text-align: center !important;
     overflow: hidden;
     margin-bottom: 0px !important;
   }
@@ -83,6 +83,7 @@ header {
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
+    height: 40px;
   }
   .cont p span.cursor.typing {
     animation: none;
